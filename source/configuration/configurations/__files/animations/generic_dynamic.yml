@@ -1,0 +1,56 @@
+type: DYNAMIC
+settings:
+  interval: 100
+  delay: 0
+  duration: 1000
+favicon:
+  animation: '<player value="face">'
+  intervals-per-frame: 1
+motd:
+  first:
+    intervals-per-frame: 2
+    text:
+      - '<scroller value="&3New updates: &eParkour, Factions, Survival.">'
+      - '<scroller value="&4Welcome back <player value="name">">'
+  second:
+    intervals-per-frame: 20
+    text:
+      - '&6Nothing is impossible, <player value="name">!'
+      - '&eCustomize for known players!'
+status-bar:
+  enabled: true
+  intervals-per-frame: 1
+  text:
+  - 'Players: &7<server value="onlineplayers">&6/&7<server value="maxplayers">'
+player-data:
+  enabled: true
+  intervals-per-frame: 4
+  '1':
+    intervals-per-frame: 4
+    text:
+    - '&7Animated MOTD'
+    - '&cAnimated MOTD'
+  '2':
+    intervals-per-frame: 4
+    text:
+    - '&cCreated by:'
+    - '&4Created by:'
+  '3':
+    intervals-per-frame: 4
+    text:
+    - '&3maciekmm <maciekmm.net>'
+    - '&amaciekmm <maciekmm.net>'
+  '4':
+    intervals-per-frame: 4
+    text:
+    - '&3samczsun <samczsun.com>'
+    - '&asamczsun <samczsun.com>'
+  '5':
+    intervals-per-frame: 4
+    text:
+    - '&7Ping: <server value="ping">ms'
+    - '&7Ping: <server value="ping">ms'
+  '6':
+    intervals-per-frame: 4
+    text:
+    - '<scroller spacing="5" width="20" value="This is some &ascrolling &rtext">'

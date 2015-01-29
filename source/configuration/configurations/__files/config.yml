@@ -1,0 +1,53 @@
+##################################################################
+#               Thanks for buying AnimatedMOTD!                  #
+#             If you need help, open a ticket at:                #
+#                 http://macizun.freshdesk.com                   #
+#                                                                #
+#               Visit macizun.me for documentation               #
+#       And if you have the time, please leave a review!         #
+##################################################################
+settings:
+  animations:
+    default:
+      dynamic: generic_dynamic
+      static: generic_static
+    host.macizun.me:
+      dynamic: generic_dynamic
+      static: generic_static
+  caching:
+    time: 604800000
+    parts:
+      face: 'http://cravatar.eu/avatar/<player value="name">/64.png'
+  fallback:
+    motd: "This is the fallback MOTD It will be used: \nWhen the duration is reached, or an animation fails"
+    favicon: favicon.png
+    #status-bar: "&7Players: {server:onlineplayers}/{server:maxplayers}" #Uncomment if you want custom status-bar on failsafe
+    player-sample:
+    - "&7Here is the static player sample"
+    - "&7It is &ac&bo&cl&1o&2r&3a&db&el&4e"
+    - "&7One frame only"
+  debug: false
+  max-connections-per-ip: 5
+  formatting:
+    time-format: '{0} days {1}:{2}:{3}'
+    date-format: 'MM-dd-yyyy h:mm a'
+  owner: owner-name-here
+database:
+    type: sqlite
+    mysql:
+      host: localhost
+      port: 3306
+      username: user
+      password: pass
+      database: animatedmotd
+    sqlite:
+      file: players.db
+variables:
+  countdown:
+    christmas:
+      type: TARGET
+      target: '2014-12-31 12:59:59'
+    dropparty:
+      type: REPEATING
+      duration: 86400 #Duration in seconds
+      repeats: 5

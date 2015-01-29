@@ -1,0 +1,26 @@
+blacklist:
+- 104.200.31.26 #minecraft-server-list.com PINGER
+- 198.41.188.52 #minecraft-server-list.com WEBSITE
+- 23.239.10.44 #minecraftservers.org PINGER
+- 23.239.10.74 #minecraftservers.org PINGER
+- 173.255.233.106 #minecraftservers.org PINGER
+- 66.175.208.209 #minecraftservers.org PINGER
+- 23.239.10.76 #minecraftservers.org PINGER
+- 50.116.54.77 #minecraftservers.org PINGER
+- 173.255.228.22 #minecraftservers.org PINGER
+- 23.239.10.77 #minecraftservers.org PINGER
+- 141.101.112.15 #minecraftservers.org WEBSITE
+- 91.121.222.149 #minecraft-list.pl PINGER / WEBSITE
+- 37.59.35.201 #minecraft-mp.com PINGER
+- 37.187.79.210 #minecraft-mp.com PINGER
+- 94.23.233.30 #minecraft-mp.com PINGER
+- 37.187.56.174 #minecraft-mp.com PINGER
+- 91.122.183.105 #minecraft-mp.com PINGER
+- 162.159.251.155 #serverpact.com WEBSITE
+- 107.170.91.81 #minetrack.net PINGER
+- 104.28.15.2 #minetrack.net WEBSITE
+- 46.116.142.198 #minestatus.net PINGER 
+- 107.21.105.33 #minestatus.net WEBSITE
+- 104.28.25.41 #topg.org WEBSITE
+- 50.28.6.244 #PlanetMinecraft.com PINGER
+- 69.172.201.208 #PlanetMinecraft.com WEBSITE

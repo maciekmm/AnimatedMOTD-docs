@@ -1,0 +1,58 @@
+type: STATIC
+settings:
+  interval: 100
+  delay: 0
+  duration: 1000
+favicon:
+  animation: "animation.gif"
+  style: optimized
+  intervals-per-frame: 1
+motd:
+  first:
+    intervals-per-frame: 2
+    text:
+    - '<scroller spacing="20" width="50" value="&3New updates: &eParkour, Factions, Survival">'
+    - '<scroller spacing="20" width="50" direction="right" value="&4Visit our website: &cmacizun.me">'
+  second:
+    intervals-per-frame: 1
+    text:
+    - '<typewriter pause="20" delimiter="&r&l\>\>" frequency="4" value="&6Nothing is impossible!">'
+    - '<typewriter pause="20" delimiter="&r&l\>\>" frequency="4" value="&7New gamemodes: &8Survival, Hunger Games">'
+    - '<typewriter pause="20" delimiter="&r&l\>\>" frequency="4" value="&eNew packages in store! &6Check it out!">'
+status-bar:
+  enabled: true
+  intervals-per-frame: 1
+  text:
+  - 'Players: &7<server value="onlineplayers">&6/&7<server value="maxplayers">'
+player-data:
+  enabled: true
+  intervals-per-frame: 4
+  '1':
+    intervals-per-frame: 4
+    text:
+    - '&7Animated MOTD'
+    - '&cAnimated MOTD'
+  '2':
+    intervals-per-frame: 4
+    text:
+    - '&cCreated by:'
+    - '&4Created by:'
+  '3':
+    intervals-per-frame: 4
+    text:
+    - '&3maciekmm <maciekmm.net>'
+    - '&amaciekmm <maciekmm.net>'
+  '4':
+    intervals-per-frame: 4
+    text:
+    - '&3samczsun <samczsun.com>'
+    - '&asamczsun <samczsun.com>'
+  '5':
+    intervals-per-frame: 4
+    text:
+    - '&7Ping: <server value="ping">ms'
+    - '&7Ping: <server value="ping">ms'
+  '6':
+    intervals-per-frame: 4
+    text:
+    - '<scroller spacing="5" width="20" value="This is some &ascrolling &rtext">'
