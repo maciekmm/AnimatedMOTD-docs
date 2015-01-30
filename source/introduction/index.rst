@@ -9,4 +9,3 @@ AnimatedMOTD
    :titlesonly:
    
    features
-   tos

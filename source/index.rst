@@ -9,6 +9,8 @@ Contents:
    
    introduction/index
    configuration/index
+   commands
+   tos
 
 
 Indices and tables
