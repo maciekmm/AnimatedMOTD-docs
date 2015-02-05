@@ -9,6 +9,7 @@ Contents:
    
    introduction/index
    configuration/index
+   variables/variables
    commands
    tos
 
