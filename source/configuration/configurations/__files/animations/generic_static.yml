@@ -26,7 +26,6 @@ status-bar:
   - 'Players: &7<server value="onlineplayers">&6/&7<server value="maxplayers">'
 player-data:
   enabled: true
-  intervals-per-frame: 4
   '1':
     intervals-per-frame: 4
     text:
