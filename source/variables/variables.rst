@@ -24,5 +24,5 @@ Variables are divided into:
    :maxdepth: 2
    :titlesonly:
    
-   placeholders
+   placeholders/placeholders
    animations
