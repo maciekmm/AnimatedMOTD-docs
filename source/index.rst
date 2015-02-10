@@ -12,6 +12,7 @@ Contents:
    variables/variables
    commands
    tos
+   faq
 
 
 Indices and tables
