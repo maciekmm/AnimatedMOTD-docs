@@ -8,3 +8,4 @@ Placeholders
 	
     platform-wide-placeholders
     bukkit-placeholders
+	bungee-placeholders
