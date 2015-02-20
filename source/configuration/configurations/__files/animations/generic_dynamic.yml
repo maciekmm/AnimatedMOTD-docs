@@ -5,6 +5,7 @@ settings:
   duration: 1000
 favicon:
   animation: '<player value="face">'
+  loop: true
   intervals-per-frame: 1
 motd:
   first:

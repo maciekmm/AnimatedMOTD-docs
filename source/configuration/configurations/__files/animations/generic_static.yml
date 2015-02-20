@@ -5,6 +5,7 @@ settings:
   duration: 1000
 favicon:
   animation: "animation.gif"
+  loop: true
   style: optimized
   intervals-per-frame: 1
 motd:

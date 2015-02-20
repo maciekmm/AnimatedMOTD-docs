@@ -55,11 +55,14 @@ favicon
 =======
 	.. literalinclude:: ../__files/animations/generic_static.yml
 		:language: yaml
-		:lines: 6-9
+		:lines: 6-10
 	
 	.. glossary::
 		animation
 			Favicon files used in animation. Using .gif will result in animated icon, .png will result in static one. Files have to be placed in main plugin folder.
+		
+		loop
+			Whether animation should loop or only be played once
 		
 		style
 			There are two styles **normal** and **optimized**, you have to choose one that corresponds to process how your .gif was built. If your icon does not animate properly switch to other mode.

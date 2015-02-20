@@ -123,7 +123,7 @@ formatting
 --------
 database
 --------
-	Database is used for storing player data for DYNAMIC animations. Currently AnimatedMOTD supports sqlite and mysql.
+	Database is used for storing player data for DYNAMIC animations. Currently AnimatedMOTD supports sqlite, flatfile and mysql.
 	
 	.. literalinclude:: __files/config.yml
 		:language: yaml
@@ -139,6 +139,7 @@ type
 	
 	- sqlite (default)
 	- mysql
+	- flatfile - May be the fastest
 	- none - Completely disables database, if you are not using DYNAMIC animations it will speed up things for you.
 		
 	Plugin will automatically create tables for your database.
